@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Lek 11 Uppgift 1</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+  </head>
+  <body onload="read_from_ls()">
+    <aside>
+      <label>Rubrik: <input type="text" id="rubrik"/></label><br/><br/>
+      <label>Artikeltext:</label><br/>
+      <textarea id="text"> </textarea><br/>
+      <button onclick="add_text()">Lägg till</button>
+    </aside>
+    <main> 
+      <article>
+        <h2>testrubrik1</h2>
+        <p>testtext1</p>
+      </article>
+      <article>
+        <h2>testrubrik2</h2>
+        <p>testtext2</p>
+      </article>
+    </main>
+    <button onclick="toggle_mode()">Ändra Mörkt/Ljus</button>
+</body>
+</html>
+  </body>
+</html>

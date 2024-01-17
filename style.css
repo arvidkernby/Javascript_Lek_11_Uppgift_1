@@ -1,0 +1,12 @@
+article {
+    border-style:solid;
+    margin-top: 3px;
+    margin-bottom: 3px;
+ }
+
+
+ .dark {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
